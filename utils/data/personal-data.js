@@ -3,7 +3,7 @@ export const personalData = {
   profile: '/profile.jpg',
   designation: "Software Developer",
   description: "Hi, I'm Andres Garcia, a passionate software developer with a strong interest in AI and cybersecurity. As a computer science major, I enjoy solving complex problems, building innovative projects, and continuously learning about emerging technologies. My portfolio showcases my dedication to creating impactful solutions, from integrating APIs like Spotify to exploring secure, scalable systems. When I'm not coding, you'll find me exploring tech trends or collaborating on exciting new ideas.",
-  email: 'itsandresgarciasanchez.gmail.com',
+  email: 'itsandresgarciasanchez@gmail.com',
   phone: '+15124154506',
   address: 'Dallas, TX',
   github: 'https://github.com/andresgrc',
