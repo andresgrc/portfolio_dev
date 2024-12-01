@@ -6,46 +6,82 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
-        code: '',
+        name: 'Nostalgio',
+        description: 'A unique app designed to connect music and travel memories by integrating Spotify with geolocation features. Users can create playlists, save memories with locations, and visualize them on a memory map. The app uses a combination of cloud-based services for authentication, database management, image storage, and geolocation APIs. Future goals include AR integration and social features.',
+        techStack: [
+            'Cognito (Authentication)', 
+            'DynamoDB (NoSQL Database)', 
+            'Lambda (Serverless Functions)', 
+            'API Gateway (REST APIs)', 
+            'S3 (File Storage)', 
+            'Cloudinary (Image Processing)', 
+            'Google Maps API (Geolocation)', 
+            'React Native', 
+            'Spotify API', 
+            'Serverless Framework'
+        ],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/andresgrc/nostalgio',
         demo: '',
-        image: crefin,
+        image: 'nostalgio.png', // Add the actual image path
+        source: 'https://github.com/acm-projects/Nostalgio', // Placeholder, replace with actual site if deployed
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        name: 'Smart-Brain App',
+        description: 'A facial recognition web app where users can submit images, and the app highlights faces in the photo. Built with React, Node.js, and Clarifai API for image recognition, with authentication managed using PostgreSQL and bcrypt.',
+        techStack: ['React', 'Node.js', 'PostgreSQL', 'Clarifai API', 'Express', 'bcrypt', 'Render'],
         role: 'Full Stack Developer',
-        code: '',
+        code: 'https://github.com/andresgrc/smart-brain',
         demo: '',
-        image: travel,
+        image: 'smart-brain.png', // Add the actual image path
+        source: 'https://smart-brain-frontend-kw4t.onrender.com/', // Placeholder, replace with actual site if deployed
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
-        code: '',
-        role: 'Full Stack Developer',
+        name: 'RoboFriends',
+        description: 'A responsive React app built to showcase a list of robots fetched via an API. Users can search through the robot names using a dynamic search bar. It is optimized for performance and developed using Vite for fast builds.',
+        techStack: ['React', 'Vite', 'API Integration', 'CSS'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/roboSearchVite',
         demo: '',
-        image: realEstate,
+        image: 'robofriends.png', // Add the actual image path
+        source: 'https://andresgrc.github.io/roboSearchVite', // Placeholder, replace with actual site if deployed
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
-        code: '',
+        name: 'Picture-in-Picture App',
+        description: 'A simple web app that allows users to select a screen or window and enable Picture-in-Picture mode. Built using modern JavaScript APIs like `getDisplayMedia` and `requestPictureInPicture` for seamless multitasking.',
+        techStack: ['HTML', 'CSS', 'JavaScript'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/picture-in-picture',
         demo: '',
-        image: ayla,
-        role: 'Full Stack Developer',
-    }
+        image: 'picture-in-picture.png', // Add the actual image path
+        source: 'andresgrc.github.io/picture-in-picture', // Placeholder, replace with actual site if deployed
+    },
+    {
+        id: 5,
+        name: 'Ping Pong Game',
+        description: 'A classic Pong game implemented in JavaScript using the HTML5 Canvas API. Features include dynamic paddle control, responsive computer AI, and increasing difficulty as the ball speed increases. Designed for both desktop and mobile browsers.',
+        techStack: ['HTML5', 'CSS', 'JavaScript', 'Canvas API'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/ping-pong',
+        demo: '',
+        image: 'pingpong-game.png', // Add the actual image path
+        source: 'https://andresgrc.github.io/ping-pong', // Placeholder, replace with actual site if deployed
+    },
+    {
+        id: 6,
+        name: 'Enhanced Video Player',
+        description: 'A custom-built video player with enhanced features, allowing users to load YouTube videos via URL. Integrated with the YouTube IFrame API for smooth playback and a polished UI with modern styling.',
+        techStack: ['HTML', 'CSS', 'JavaScript', 'YouTube IFrame API'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/youtube-video-player',
+        demo: '',
+        image: 'enhanced-video-player.png', // Add the actual image path
+        source: 'https://andresgrc.github.io/youtube-video-player', // Placeholder, replace with actual site if deployed
+    },
 ];
-
 
 // Do not remove any property.
 // Leave it blank instead as shown below

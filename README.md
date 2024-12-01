@@ -5,7 +5,7 @@
 
 ---
 
-## View live preview [here](andresgarciaportfolio.netlify.app).
+## View live preview [here](andresgarciaportfolio.netlify.app/).
 
 ---
 
