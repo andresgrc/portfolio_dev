@@ -6,6 +6,39 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
+        name: 'Smart-Brain App',
+        description: 'A facial recognition web app where users can submit images, and the app highlights faces in the photo. Built with React, Node.js, and Clarifai API for image recognition, with authentication managed using PostgreSQL and bcrypt.',
+        techStack: ['React', 'Node.js', 'PostgreSQL', 'Clarifai API', 'Express', 'bcrypt', 'Render'],
+        role: 'Full Stack Developer',
+        code: 'https://github.com/andresgrc/smart-brain',
+        demo: '',
+        image: '', // Add the actual image path
+        source: 'https://smart-brain-frontend-kw4t.onrender.com/', // Placeholder, replace with actual site if deployed
+    },
+    {
+        id: 2,
+        name: 'RoboFriends',
+        description: 'A responsive React app built to showcase a list of robots fetched via an API. Users can search through the robot names using a dynamic search bar. It is optimized for performance and developed using Vite for fast builds.',
+        techStack: ['React', 'Vite', 'API Integration', 'CSS'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/roboSearchVite',
+        demo: '',
+        image: 'robofriends.png', // Add the actual image path
+        source: 'https://andresgrc.github.io/roboSearchVite', // Placeholder, replace with actual site if deployed
+    },
+    {
+        id: 3,
+        name: 'Picture-in-Picture App',
+        description: 'A simple web app that allows users to select a screen or window and enable Picture-in-Picture mode. Built using modern JavaScript APIs like `getDisplayMedia` and `requestPictureInPicture` for seamless multitasking.',
+        techStack: ['HTML', 'CSS', 'JavaScript'],
+        role: 'Frontend Developer',
+        code: 'https://github.com/andresgrc/picture-in-picture',
+        demo: '',
+        image: '', // Add the actual image path
+        source: 'https://andresgrc.github.io/picture-in-picture', // Placeholder, replace with actual site if deployed
+    },
+    {
+        id: 4,
         name: 'Nostalgio',
         description: 'A unique app designed to connect music and travel memories by integrating Spotify with geolocation features. Users can create playlists, save memories with locations, and visualize them on a memory map. The app uses a combination of cloud-based services for authentication, database management, image storage, and geolocation APIs. Future goals include AR integration and social features.',
         techStack: [
@@ -25,39 +58,6 @@ export const projectsData = [
         demo: '',
         image: '', // Add the actual image path
         source: 'https://github.com/acm-projects/Nostalgio', // Placeholder, replace with actual site if deployed
-    },
-    {
-        id: 2,
-        name: 'Smart-Brain App',
-        description: 'A facial recognition web app where users can submit images, and the app highlights faces in the photo. Built with React, Node.js, and Clarifai API for image recognition, with authentication managed using PostgreSQL and bcrypt.',
-        techStack: ['React', 'Node.js', 'PostgreSQL', 'Clarifai API', 'Express', 'bcrypt', 'Render'],
-        role: 'Full Stack Developer',
-        code: 'https://github.com/andresgrc/smart-brain',
-        demo: '',
-        image: '', // Add the actual image path
-        source: 'https://smart-brain-frontend-kw4t.onrender.com/', // Placeholder, replace with actual site if deployed
-    },
-    {
-        id: 3,
-        name: 'RoboFriends',
-        description: 'A responsive React app built to showcase a list of robots fetched via an API. Users can search through the robot names using a dynamic search bar. It is optimized for performance and developed using Vite for fast builds.',
-        techStack: ['React', 'Vite', 'API Integration', 'CSS'],
-        role: 'Frontend Developer',
-        code: 'https://github.com/andresgrc/roboSearchVite',
-        demo: '',
-        image: 'robofriends.png', // Add the actual image path
-        source: 'https://andresgrc.github.io/roboSearchVite', // Placeholder, replace with actual site if deployed
-    },
-    {
-        id: 4,
-        name: 'Picture-in-Picture App',
-        description: 'A simple web app that allows users to select a screen or window and enable Picture-in-Picture mode. Built using modern JavaScript APIs like `getDisplayMedia` and `requestPictureInPicture` for seamless multitasking.',
-        techStack: ['HTML', 'CSS', 'JavaScript'],
-        role: 'Frontend Developer',
-        code: 'https://github.com/andresgrc/picture-in-picture',
-        demo: '',
-        image: '', // Add the actual image path
-        source: 'andresgrc.github.io/picture-in-picture', // Placeholder, replace with actual site if deployed
     },
     {
         id: 5,
