@@ -23,7 +23,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/andresgrc/nostalgio',
         demo: '',
-        image: 'nostalgio.png', // Add the actual image path
+        image: '', // Add the actual image path
         source: 'https://github.com/acm-projects/Nostalgio', // Placeholder, replace with actual site if deployed
     },
     {
@@ -34,7 +34,7 @@ export const projectsData = [
         role: 'Full Stack Developer',
         code: 'https://github.com/andresgrc/smart-brain',
         demo: '',
-        image: 'smart-brain.png', // Add the actual image path
+        image: '', // Add the actual image path
         source: 'https://smart-brain-frontend-kw4t.onrender.com/', // Placeholder, replace with actual site if deployed
     },
     {
@@ -56,7 +56,7 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: 'https://github.com/andresgrc/picture-in-picture',
         demo: '',
-        image: 'picture-in-picture.png', // Add the actual image path
+        image: '', // Add the actual image path
         source: 'andresgrc.github.io/picture-in-picture', // Placeholder, replace with actual site if deployed
     },
     {
@@ -67,7 +67,7 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: 'https://github.com/andresgrc/ping-pong',
         demo: '',
-        image: 'pingpong-game.png', // Add the actual image path
+        image: '', // Add the actual image path
         source: 'https://andresgrc.github.io/ping-pong', // Placeholder, replace with actual site if deployed
     },
     {
@@ -78,7 +78,7 @@ export const projectsData = [
         role: 'Frontend Developer',
         code: 'https://github.com/andresgrc/youtube-video-player',
         demo: '',
-        image: 'enhanced-video-player.png', // Add the actual image path
+        image: '', // Add the actual image path
         source: 'https://andresgrc.github.io/youtube-video-player', // Placeholder, replace with actual site if deployed
     },
 ];

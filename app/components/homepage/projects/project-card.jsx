@@ -36,14 +36,14 @@ function ProjectCard({ project }) {
           </div>
 
           <div className="ml-4 lg:ml-8 mr-2">
-            <span className=" text-white">tools:</span>
+            <span className=" text-white">techStack:</span>
             <span className="text-gray-400">{` ['`}</span>
             {
-              project.tools.map((tag, i) => (
+              project.techStack.map((tag, i) => (
                 <React.Fragment key={i}>
                   <span className="text-amber-300">{tag}</span>
                   {
-                    project.tools.length - 1 !== i &&
+                    project.techStack.length - 1 !== i &&
                     <span className="text-gray-400">{`', '`}</span>
                   }
                 </React.Fragment>
