@@ -1,8 +1,8 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree in Computer Science",
-    duration: "2024 - 2028",
+    title: "Fast Track BS/MS",
+    duration: "2028",
     institution: "University of Texas at Dallas",
   },
   {
