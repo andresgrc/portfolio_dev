@@ -5,6 +5,27 @@ import travel from '/public/image/travel.jpg';
 
 export const projectsData = [
     {
+        id: 0,
+        name: 'SAGE (UT Dallas)',
+        description: 'SAGE is an AI-powered academic guidance tool built by ACM Development at UT Dallas. It helps students explore courses, degree plans, and university resources through a conversational interface. I contributed as a backend developer, working on AWS Lambda functions, secure API integrations, and a LangChain-powered chatbot to deliver contextual academic support.',
+        techStack: [
+            'AWS Lambda', 
+            'API Gateway', 
+            'DynamoDB', 
+            'S3', 
+            'Python', 
+            'LangChain', 
+            'OpenAI API', 
+            'Pinecone', 
+            'Terraform'
+        ],
+        role: 'Backend Developer',
+        code: 'https://github.com/acm-projects/sage', // Replace with actual repo if private
+        demo: '',
+        image: '', // Add actual image path if available
+        source: 'https://utdsage.com/',
+},
+    {
         id: 1,
         name: 'Smart-Brain App',
         description: 'A facial recognition web app where users can submit images, and the app highlights faces in the photo. Built with React, Node.js, and Clarifai API for image recognition, with authentication managed using PostgreSQL and bcrypt.',
