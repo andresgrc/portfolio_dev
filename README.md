@@ -6,5 +6,3 @@
 ---
 
 ## View live preview [here](https://andresgarciaportfolio.netlify.app).
-
----
