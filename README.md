@@ -6,7 +6,3 @@
 ---
 
 ## View live preview [here](https://andresgarciaportfolio.netlify.app).
-
----
-
-#### Built with inspiration from.[ Developer Portfolio](https://github.com/said7388/developer-portfolio).
