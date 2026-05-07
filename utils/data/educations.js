@@ -1,14 +1,14 @@
 export const educations = [
   {
     id: 1,
-    title: "Fast Track BS/MS",
-    duration: "2028",
+    title: "Bachelor of Science in Computer Science",
+    duration: "2027",
     institution: "University of Texas at Dallas",
   },
   {
     id: 2,
-    title: "Property and Casualty Insurance License",
-    duration: "2023",
-    institution: "Progressive Corporation",
+    title: "Hobson Wildenthal Honors College",
+    duration: "2025",
+    institution: "University of Texas at Dallas",
   }
 ]
