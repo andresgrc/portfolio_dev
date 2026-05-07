@@ -7,14 +7,14 @@ export const experiences = [
   },
   {
     id: 2,
-    title: "License Insurance Agent",
-    company: "Progressive Corporation",
-    duration: "(March 2023 - August 2024)"
+    title: "Software Developer",
+    company: "Planet Access",
+    duration: "2025 - Present"
   },
   {
     id: 3,
-    title: "Full Stack Developer",
-    company: "My personal projects",
-    duration: "(Jan 2020 - Present)"
+    title: "Technical Lead / Full Stack Developer",
+    company: "Mexican Incorporation",
+    duration: "2025 - Present"
   }
 ]
