@@ -11,7 +11,7 @@ export const personalData = {
   linkedIn: 'https://www.linkedin.com/in/andres-garcia-sanchez/',
   twitter: 'https://twitter.com/AndresG06231572',
   stackOverflow: 'https://stackoverflow.com/users/28521748/andres-garcia-sanchez',
-  leetcode: "https://leetcode.com/u/andresgrc/",
+  // leetcode: "https://leetcode.com/u/andresgrc/",
   devUsername: "andresgrc",
   resume: "https://drive.google.com/file/d/1cZZS5RlsMmYxOtMaKJ2ZbINGB2sbt2tf/view?usp=drive_link",
 }
