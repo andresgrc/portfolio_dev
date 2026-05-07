@@ -2,7 +2,7 @@ export const personalData = {
   name: "Andres Garcia",
   profile: '/profile.jpg',
   designation: "Software Developer",
-  description: "Hi, I'm Andres Garcia, a passionate software developer with a strong interest in AI and cybersecurity. As a computer science major, I enjoy solving complex problems, building innovative projects, and continuously learning about emerging technologies. My portfolio showcases my dedication to creating impactful solutions, from integrating APIs like Spotify to exploring secure, scalable systems. When I'm not coding, you'll find me exploring tech trends or collaborating on exciting new ideas.",
+  description: "I’m Andres Garcia, a software developer and Computer Science student at UT Dallas with a strong interest in AI, cloud systems, and cybersecurity. I enjoy building practical, reliable software that solves real problems, whether that means developing backend systems, improving data workflows, or exploring intelligent applications. A lot of what drives me is the challenge of learning fast, thinking deeply, and turning ideas into something useful. Through my projects and work, I’ve had the chance to build with modern tools across full-stack development, automation, and AI-powered systems, and I’m always looking for opportunities to keep growing and create technology that makes a real impact.",
   email: 'itsandresgarciasanchez@gmail.com',
   phone: '+15124154506',
   address: 'Dallas, TX',
